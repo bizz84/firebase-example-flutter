@@ -7,12 +7,19 @@ dependencies:
   google_sign_in: 3.0.1
   firebase_core: 0.2.2
   firebase_auth: 0.5.4                                            # new
-  #firebase_database: 0.4.3                                       # new
+  firebase_database: 0.4.3                                       # new
   firebase_storage: 0.2.2
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.0
+
+dependency_overrides:
+  firebase_database:
+    git:
+      url: git://github.com/bizz84/plugins.git
+      path: packages/firebase_database
+      ref: update_firebase_database_dependency_to_firebase_core
 
 dev_dependencies:
   flutter_test:

@@ -99,6 +99,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.2.2"
+  firebase_database:
+    dependency: "direct main"
+    description:
+      path: "packages/firebase_database"
+      ref: update_firebase_database_dependency_to_firebase_core
+      resolved-ref: "07d368e761a29ed4d0f035ae5641c250bc7aa400"
+      url: "git://github.com/bizz84/plugins.git"
+    source: git
+    version: "0.4.3"
   firebase_storage:
     dependency: "direct main"
     description:

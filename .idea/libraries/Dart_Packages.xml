@@ -100,6 +100,13 @@
             </list>
           </value>
         </entry>
+        <entry key="firebase_database">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/git/plugins-07d368e761a29ed4d0f035ae5641c250bc7aa400/packages/firebase_database/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="firebase_storage">
           <value>
             <list>
@@ -425,6 +432,7 @@
       </option>
     </properties>
     <CLASSES>
+      <root url="file://$USER_HOME$/.pub-cache/git/plugins-07d368e761a29ed4d0f035ae5641c250bc7aa400/packages/firebase_database/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/analyzer-0.31.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/args-1.4.2/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/async-2.0.6/lib" />
