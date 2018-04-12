@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 void main() => runApp(new MyApp());
 
@@ -44,6 +45,13 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
+
+  initState() {
+    super.initState();
+    FirebaseAuth.instance.signInAnonymously().then((user) {
+      print('User: ${user.uid}');
+    });
+  }
 
   void _incrementCounter() {
     setState(() {
