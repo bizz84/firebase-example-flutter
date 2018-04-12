@@ -83,7 +83,7 @@ DEPENDENCIES:
   - firebase_core (from `Pods/.symlinks/plugins/firebase_core/ios`)
   - firebase_database (from `Pods/.symlinks/plugins/firebase_database/ios`)
   - firebase_storage (from `Pods/.symlinks/plugins/firebase_storage/ios`)
-  - Flutter (from `Pods/.symlinks/flutter/ios`)
+  - Flutter (from `Pods/.symlinks/flutter/ios-release`)
   - google_sign_in (from `Pods/.symlinks/plugins/google_sign_in/ios`)
 
 SPEC REPOS:
@@ -112,7 +112,7 @@ EXTERNAL SOURCES:
   firebase_storage:
     :path: Pods/.symlinks/plugins/firebase_storage/ios
   Flutter:
-    :path: Pods/.symlinks/flutter/ios
+    :path: Pods/.symlinks/flutter/ios-release
   google_sign_in:
     :path: Pods/.symlinks/plugins/google_sign_in/ios
 
